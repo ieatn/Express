@@ -1,0 +1,43 @@
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+p, h1, h2, h3, a, ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #222;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+/* moves blogs to right */
+.blogs-content {
+    margin-left: 20px;
+}
+/* centers form */
+.blog-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* neatly aligns them */
+.blog-form input,
+.blog-form textarea {
+    display: block;
+}

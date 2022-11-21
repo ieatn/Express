@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>welcome to the home page!</h1>
+    <h1>what color is sky?</h1>
+    <form action="/result" method="post">
+      <input type="text" name="color">
+      <button>submit</button>
+    </form>
+    <% if (isRaining) { %>
+        <p>it's raining</p>
+    <% } else { %>
+        <p>it's not raining</p>
+    <% } %> 
+</body>
+</html>
